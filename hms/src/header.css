@@ -1,0 +1,58 @@
+/* Header container styles */
+.header {
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; Ensure space between logo and nav */
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0; /* Stick to the top */
+    /* width: 100vw; Ensure full width for the header */
+    padding: 10px 20px;
+    /* z-index: 10; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+/* Logo image container */
+.image img {
+    height: 70px;
+}
+
+/* Navigation buttons container */
+.nav {
+    display: flex;
+    gap: 30px; /* Adjust spacing between buttons */
+    align-items: center;
+    flex-grow: 1; /* Take up remaining space */
+    justify-content: flex-end; /* Push buttons to the right */
+}
+
+/* General styles for navigation buttons */
+.nav button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Login button specific styling */
+.login-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hover effect for buttons */
+.nav button:hover {
+    opacity: 0.8;
+}
+
+/* Optional: Ensure body has no margin that affects layout */
+body {
+    margin: 0;
+    padding: 0;
+}

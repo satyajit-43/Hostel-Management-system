@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+
+.image img{
+    height: 70px;
+}
+
+.nav{
+    display: flex;
+    gap: 90px;
+}
+
+.nav button{
+    background:none;
+    border: none;
+    font-size: 20px;
+}
+
+.nav a{
+    background:none;
+    border: none;
+    font-size: 20px;
+    margin-top: 25px;
+    color: black;
+}
+
+.nav :nth-child(5){
+    background-color: black;
+    color: white;
+    padding: 10px 15px 0px 15px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+.image_rule{
+    background-image: url(Images/rules.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    padding-top: 70px;
+}
+
+.image_rule p{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 0 0 48%; /* Adjusted for two columns per row */
+    margin: 10px;
+    text-align: center;
+}
+
+.facility-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.facility-image:hover {
+    transform: scale(1.05);
+}
+
+.facility-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.facility-link:hover {
+    text-decoration: underline;
+}
+
+
+
+a{
+    text-decoration: none;
+}

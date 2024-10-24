@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: white;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #1f1f1f;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 50vw; */
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    color: #3d89f5;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #e6e6e6;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    color: #3d89f5;
+}
+
+.logout-btn {
+    background-color: #3d89f5;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-btn:hover {
+    background-color: #2a6fd5;
+}
+
+/* Main content styling */
+.main-content {
+    flex-grow: 1;
+    background-color: #292929;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+}
+
+.welcome h1 {
+    font-size: 28px;
+}
+
+.highlighted {
+    color: #3d89f5;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    background-color: #1f1f1f;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 190px;
+}
+
+.stat-box h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #3d89f5;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-box, .chart-box {
+    background-color: #1f1f1f;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content-box button {
+    background-color: #3d89f5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.content-box button:hover {
+    background-color: #2a6fd5;
+}
+
+/* Time styling */
+.time {
+    font-size: 18px;
+    color: #ccc;
+}
